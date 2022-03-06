@@ -6,7 +6,15 @@ function NameValidator($data)
 {
     if (preg_match("/^([A-ZÁÉÚŐÓÜÖÍ]([a-záéúőóüöí.]+\s?)){2,}$/", $data)) {
         echo "A név jó";
-    } else {
+    }
+    else if(empty($data)){
+        echo "Kérlek írd be a neved!";
+    }
+    else {
         echo 'A név nem jó';
     }
+}
+
+function EmailValidator($data){
+
 }
