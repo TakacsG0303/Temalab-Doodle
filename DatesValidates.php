@@ -7,9 +7,9 @@ class DateValidates(){
     public function endDateAfterStartDate($startDate, $endDate){
         
     }
-    public function endDateLaterNowDate($endDate){
+    public function startDateLaterNowDate($startDate){
         
     }
 }
 
-?>
+?>s
